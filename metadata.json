@@ -1,0 +1,8 @@
+{
+  "name": "Dellala_adiss Real Estate",
+  "description": "Premium real estate brokerage specializing in luxury rentals and sales in Addis Ababa, Ethiopia.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

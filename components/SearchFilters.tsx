@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { FilterState, PropertyStatus, PropertyType } from '../types';
-import { LOCATIONS } from '../constants';
+import { FilterState, PropertyStatus, PropertyType } from '../types.ts';
+import { LOCATIONS } from '../constants.tsx';
 
 interface SearchFiltersProps {
   filters: FilterState;

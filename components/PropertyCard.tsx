@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Property, PropertyStatus } from '../types';
+import { Property, PropertyStatus } from '../types.ts';
 
 interface PropertyCardProps {
   property: Property;

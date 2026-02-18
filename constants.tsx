@@ -1,5 +1,5 @@
 
-import { Property, PropertyStatus, PropertyType, Testimonial } from './types';
+import { Property, PropertyStatus, PropertyType, Testimonial } from './types.ts';
 
 export const PROPERTIES: Property[] = [
   {

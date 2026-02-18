@@ -1,15 +1,15 @@
 
 import React, { useState, useMemo } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import SearchFilters from './components/SearchFilters';
-import PropertyCard from './components/PropertyCard';
-import About from './components/About';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import { PROPERTIES } from './constants';
-import { FilterState, PropertyStatus } from './types';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import SearchFilters from './components/SearchFilters.tsx';
+import PropertyCard from './components/PropertyCard.tsx';
+import About from './components/About.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
+import { PROPERTIES } from './constants.tsx';
+import { FilterState, PropertyStatus } from './types.ts';
 
 const App: React.FC = () => {
   const [filters, setFilters] = useState<FilterState>({
